@@ -1,0 +1,19 @@
+.background{
+    background-image: url(./background.JPEG);
+    height: 700px;
+    width: 700px;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-attachment: fixed;
+    background-position: center;
+
+    /* object-fit: ; */
+
+}
+p{
+    text-indent: 20%;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: left;
+    padding-top: ;
+}

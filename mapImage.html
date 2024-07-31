@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image map</title>
+</head>
+<body>
+    <h2 style="color: crimson;">image map Generator</h2>
+    <!-- Image Map Generator-->
+    <img src="laptop.jpeg" usemap="#image-map">
+
+    <map name="image-map">
+    <area onclick="touchpad()" target="" alt="touchpad" title="touchpad" href="" coords="96,124,148,146" shape="rect">
+    <area onclick="code()" alt="code" title="code" href="" coords="113,19,222,98" shape="rect">
+    </map>
+
+</body>
+<script>
+    function touchpad(){
+        alert("You clicked on touchpad")
+    }
+    function code(){
+        alert("You clicked on code")
+    }
+</script>
+</html>

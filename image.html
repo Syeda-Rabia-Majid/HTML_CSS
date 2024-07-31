@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <h2>image copy address</h2>
+    <img src="https://www.thespruceeats.com/thmb/Hz677yfVdPECquUOekjv0b9yXTE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SES-mocha-4797918-step-04-599987714aec41aba02f1f870e900dd8.jpg" width="400px" alt="">
+    
+    <h2>using img tag</h2>
+    <img src="./laptop.jpeg" width="400px"  alt="no image">
+    <h2>using picture source</h2>
+    <picture>
+        <source media="(min-width: 650px)" srcset="./laptop.jpeg"  />
+        <source media="(min-width: 460px)" srcset="./laptop.jpeg"  />    
+        <img src="./laptop.jpeg" width="400px"  alt="no image">
+    </picture>
+</head>
+<body>
+    
+</body>
+</html>

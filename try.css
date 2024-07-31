@@ -1,0 +1,16 @@
+nav{
+    background-color: black;
+    overflow: hidden;
+}
+/* Using overflow: hidden is another effective method to ensure that a parent container expands to contain its floated children */
+nav a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    float: left;
+}
+/* When you float an element, its parent container may not expand to encompass the floated element. This can cause the background color of the parent container to not display correctly. */
+a:hover{
+    color: brown;
+}

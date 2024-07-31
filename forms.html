@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        input[type='text']{
+            border-radius: 5px;
+            padding: 7px;
+        }
+        form{
+            padding: 10px;
+        }
+        button[type='submit']{
+            background-color: rgb(168, 142, 164);
+            border: none;
+            border-radius: 4px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <form action="url" method="GET" accept-charset="UTF-8" autocomplete="off" enctype="text/plain">
+        <label for="fname">First Name</label>
+        <input type="text" placeholder="First Name" id="fname">
+        <br /><label for="lname">Last Name</label>
+        <input type="text" placeholder="Last Name" value="Rabia" id="lname">
+        <input type="reset" value="reset">
+        <br/><input type="week" name="" id=""> 
+        <br/><select name="Editors" id="">
+            <option value="VS Code">VS Code</option>
+            <option value="Sublime Text">Sublime Text</option>
+        </select>
+        <br /><button type="submit">Submit</button>
+        <input type="hidden" id="postId" name="postId" value="34657" />
+    </form>
+</body>
+</html>

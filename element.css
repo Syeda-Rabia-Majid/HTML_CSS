@@ -1,0 +1,47 @@
+p,a{
+    color: brown;
+}
+
+li{
+    list-style-type: none;
+}
+.a{
+    background-color: aquamarine;
+}
+span.special,
+li.ab{
+    background-color: chocolate;
+}
+
+p em,
+li em{
+    color: rgb(30, 57, 210);
+}
+
+h2+p .special{
+    font-size: larger;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    color: blue;
+}
+#r{
+    background-color: coral;
+}
+p#r{
+    background-color: cadetblue;
+}
+li[class]{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li[class='a']{
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    text-decoration-line: line-through;
+}
+

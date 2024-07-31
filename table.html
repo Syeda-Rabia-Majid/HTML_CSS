@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table {
+                width: 100%;
+                border-collapse: collapse;
+                text-align: center;
+                color: black;
+        }
+        td,th{
+                border: 2px solid black;
+                padding: 10px;
+        }
+        tr:nth-child(even){
+            background-color: #8b8b8b;
+            
+        }
+    </style>
+</head>
+<body>
+    <!-- table>tr>th*3 -->
+    <table>
+        <tr>
+            <th>Country</th>
+            <th>Country Code</th>
+            <th>Email</th>
+        </tr>
+<!-- 
+        tr>td*3 -->
+        <tr>
+            <td>Pakistan</td>
+            <td>PK(+92)</td>
+            <td>pakistan@gooogle.com</td>
+        </tr>
+        <tr>
+            <td>United state of America</td>
+            <td>USA</td>
+            <td>USA@google.com</td>
+        </tr>
+        <tr>
+            <td>Saudi Arabia</td>
+            <td>SA</td>
+            <td>arab@google.com</td>
+        </tr>
+    </table>
+
+    <hr>
+    <table style="width: 50%;">
+        <caption>Country Code</caption>
+        <tr>
+            <th >Country code</th>
+            <td>PK</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <th>Country </th>
+            <td>PaKistan</td>
+            <td>USnied state of America</td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td>PK@google.com</td>
+            <td>USA@google.com</td>
+        </tr>
+        <tfoot>
+            <tr>
+                <th colspan="2">country codes</th>
+                <td>PK,USA</td>
+            </tr>
+            
+        </tfoot>
+    </table>
+
+</body>
+</html>

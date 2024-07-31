@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity</title>
+    <style>
+        p{
+            color: aqua;
+          
+        }
+        p{
+            color: rgb(80, 5, 46);
+        }
+
+        .child{
+            background-color: burlywood;
+        }
+        .parent{
+            background-color: rgb(158, 156, 36);
+        }
+        .parent  li.child{
+            background-color: aquamarine;
+        }
+        .important{
+            color: brown !important;
+        }
+
+    </style>
+</head>
+<body>
+    <p>if one selector are given 2nd tiem property then it is hidden by second property</p>
+    <p>specifity high override</p>
+    <p style="color: blue;" class="important">inline styling has more priority so w have to use i mportant keyword</p>
+    <ul class="parent">
+        <li class="child">Style</li>
+        <li class="child">Style</li>
+        <li class="child">Style</li>
+        <li class="child">Style</li>
+        <li class="child">Style</li>
+    </ul>
+</body>
+</html>
